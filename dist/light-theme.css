@@ -1,0 +1,180 @@
+/* A sunlit, illustrated casebook: ivory paper, sea glass, and warm vermilion. */
+:root{
+  --ink:#253a3b;
+  --ink-2:#334b4a;
+  --paper:#fbf8f1;
+  --paper-deep:#eee8da;
+  --gold:#ae7956;
+  --gold-light:#a45d47;
+  --red:#a65f52;
+  --muted:#667874;
+  --line:#dcd9ce;
+}
+body{background:#fbf8f1;color:#253a3b}
+::selection{background:#efd7ad;color:#253a3b}
+:focus-visible{outline-color:#ab6950}
+
+/* Masthead and opening scene. */
+.site-header{background:#fbf9f3f2;border-bottom-color:#d4d7ce;box-shadow:0 3px 20px #293e3510}
+.brand-mark{border-color:#ad7957;color:#a45d47;background:#fffdf8}
+.brand-en{color:#9a6957}
+.nav a{color:#4c6462}.nav a:hover,.nav a[aria-current="location"]{color:#a45944}
+.header-contact{color:#8c4b3e;border-color:#bd9780}
+.page-progress{background:linear-gradient(90deg,#9bb5a6,#bd8064)}
+.mobile-dock{background:#faf8f0f2;border-top-color:#d5d8cf;box-shadow:0 -5px 20px #263b3012}
+.mobile-dock a{color:#536762}
+.mobile-dock a[aria-current="location"]{background:#e7eee8;color:#a45944}
+.hero{border-bottom-color:#d8d8ce;background:radial-gradient(circle at 23% 25%,#fffdf8 0,#f6f4eb 47%,#ebefe9 100%)}
+.hero-copy{background-image:linear-gradient(145deg,transparent 0 74%,#bed0bc18 74% 74.3%,transparent 74.3%)}
+.eyebrow,.hero-index{color:#947052}.eyebrow-line,.scroll-line{background:#ba9471}
+.hero-kicker{color:#7a6a5b}
+.hero h1{color:#263c3c}.hero h1 em{color:#a95645}
+.hero-intro{color:#536663}
+.button-gold{background:#a95f4c;color:#fffaf1;box-shadow:0 5px 0 #82463826}
+.button-gold:hover{background:#884b3e;color:#fff}
+.text-link{color:#925646;border-color:#b88970}.text-link:hover{color:#573f3a;border-color:#573f3a}
+.hero-visual{background:#b3c9c5}
+.hero-visual:after{background:linear-gradient(180deg,#29464050,transparent 28%,transparent 57%,#253e4770)}
+.hero-visual>img{filter:saturate(.94) contrast(.98)}
+.hero-visual-top,.hero-visual-bottom{color:#fffdf5}
+.seal{background:#f8f2e8b8;color:#344444;border-color:#fff9e9;box-shadow:0 0 0 5px #fff9e955}
+
+/* Chapter route and persistent progress. */
+.quest-bar{background:#e8efe9;border-bottom-color:#ced9d0}
+.quest-intro,.quest-step{border-color:#ccd7cd}
+.quest-intro>span,.quest-step>span{color:#986953}
+.quest-intro strong,.quest-step b{color:#314947}
+.quest-intro small,.quest-step small{color:#687a71}
+.quest-step:hover,.quest-step:focus-visible{background:#f6f8f1;box-shadow:inset 0 -3px #b8785b}
+.quest-step i{color:#73867c;border-color:#99a99b}
+.quest-step.is-complete{background:#dce9df}
+.quest-step.is-complete i{background:#a8664c;border-color:#a8664c;color:#fff}
+.quest-bar.is-started{box-shadow:inset 0 3px #bb8062}
+.quest-hud{background:#fffdf5ed;border-color:#bb9478;box-shadow:0 10px 30px #38534725}
+.quest-hud:hover{background:#f7f1e5}
+.quest-hud span{color:#9d654e}.quest-hud strong{color:#314948}.quest-hud small{color:#5d716b}
+.quest-toast{background:#fff7e5;border-color:#ba8665;color:#354742}
+
+/* Profile and highlights. */
+.about{background:#e9f0eb;border-bottom-color:#d4ded3;color:#2f4543}
+.about .section-number{color:#99684d}
+.about h2,.about h2 span{color:#294341}
+.about h2 span{color:#a05e4b}
+.about-lead{color:#775344}
+.about>div>p:not(.section-number):not(.about-lead){color:#526962}
+.about-tags span{border-color:#c5d4c6;background:#f8faf4;color:#4d665f}
+.about-aside{border-left-color:#c5d5c7}
+.about-aside>div{border-bottom-color:#c8d7c8}
+.about-aside>div>span{color:#975e48}
+.about-aside small{color:#71857a}
+.about-aside a:not(.button){color:#87503d}
+.button-outline{border-color:#a9694e;color:#8c4c3c}
+.button-outline:hover{background:#a9694e;color:#fffdf6}
+.proof-strip{background:#f9f7ef;border-bottom-color:#dedbd0}
+.proof-strip>div{border-right-color:#d7d9ce}
+.proof-strip strong{color:#a55d49}
+.proof-strip>div>span{color:#566c67}
+
+/* Projects become pages in the same physical dossier. */
+.section-projects{background:#f4f1e9}
+.section-number{color:#a25f49}
+.section-heading h2{color:#253d3c}
+.section-heading>p{color:#63736c}
+.hotel{background:#fffdf7;border:1px solid #e5dfd2;box-shadow:0 24px 65px #5b65591a}
+.project-number,.project-year{color:#976b54}
+.hotel h3{color:#24413e}
+.project-cn{color:#756958}
+.hotel-content p{color:#53645f}
+.hotel-content .project-lead{color:#2e4844}
+.project-facts{border-color:#dedacf}.project-facts>div{border-right-color:#dedacf}
+.project-facts b{color:#a15e49}.project-facts span{color:#65766e}
+.button-dark{background:#375753;color:#fffdf6}.button-dark:hover{background:#264440}
+.dark-link{color:#41615d;border-color:#9fae9f}
+.hotel-foot,.document-links{border-color:#dfdbcf}
+.foot-note p{color:#365550}.foot-note small{color:#7b8678}
+.hotel-mini{background:#f1efe6;border-color:#dad5c7}
+.hotel-mini:hover{border-color:#b8795b;box-shadow:0 12px 22px #3a554020}
+.hotel-mini span{background:#fffdf7e8;color:#31514d}
+.document-links>span{color:#7a887c}.document-links a{color:#49716a;border-color:#9fb4a7}
+
+/* The clue board is pale sea glass; Claire's dialogue reads like a game scene. */
+.case-file{background:#e7f0eb;color:#2e4542;border-color:#bed1c4;box-shadow:inset 0 0 0 7px #e7f0eb,inset 0 0 0 8px #c5d8cc}
+.case-head .tiny-label{color:#9f634d}.case-head h4{color:#29423e}.case-head p{color:#60766c}
+.case-counter{color:#8c5948;border-color:#caaa91;background:#fcf7ee}
+.case-swipe-hint{color:#a1694d}
+.evidence-card{background:#fffaf0;border-color:#c9d5c8;color:#28413e}
+.evidence-card:hover{border-color:#bd8864;box-shadow:0 10px 20px #44604824}
+.evidence-card[aria-pressed="true"]{border-color:#b76a50;box-shadow:0 0 0 2px #c7836550}
+.evidence-card img{background:#f1ecdd}
+.evidence-card small{color:#97654e}
+.case-notes{background:linear-gradient(145deg,#fffefa,#f5f8f0);border-color:#c9d8cc}
+.case-notes>span{color:#a05b46}
+.case-notes>p:not(.case-conclusion){color:#324a46}
+.case-progress{background:#d8e3d9}.case-progress span{background:#b97455}
+.case-conclusion{color:#8c513e;border-top-color:#d6e0d4}.case-conclusion em{color:#586f64}
+.case-reset{color:#98614a}.case-reset:hover{color:#5d3f34}
+.character-dialogue{background:linear-gradient(110deg,#f9e3ce,#fff5e6 58%,#edf1e5);border-color:#d5a985;box-shadow:0 14px 30px #7658401c}
+.character-dialogue:before{border-color:#d9bba0}
+.character-dialogue img{filter:drop-shadow(0 3px 12px #855a4c28)}
+.dialogue-name{color:#8b503c;border-color:#bf9272}.dialogue-name small{color:#a07a61}
+.dialogue-copy p{color:#344746;text-shadow:none}.dialogue-next{color:#9a6550}
+
+/* The Saint's chapter uses rose paper and an illuminated sigil. */
+.saint{background:#f9eee8;border-color:#e2c9bd}
+.saint-stage{background:radial-gradient(circle at 53% 44%,#d5a99466 0 12%,transparent 43%),radial-gradient(circle at 52% 48%,transparent 0 26%,#aa7c5a66 26.2% 26.5%,transparent 26.8% 38%,#aa7c5a44 38.2% 38.4%,transparent 39%),repeating-linear-gradient(100deg,transparent 0 28px,#ad80660c 29px 31px),#ead8cf;border-right-color:#dfc2b6}
+.saint-stage:before{border-color:#b185684d}.saint-stage:after{border-color:#b1856829}
+.saint-sigil{color:#9c5548;text-shadow:0 0 35px #b37b6570}
+.saint-stage-side{color:#9a695b}.saint-stage-bottom{color:#8e5449}
+.saint .project-number{color:#a0604d}.saint h3{color:#803f3e}
+.saint-subtitle{color:#9b584c}.saint-content>p:not(.saint-subtitle){color:#5b6661}
+.saint-points{border-color:#dec8bd}.saint-points b{color:#8d4e43}.saint-points span{color:#667169}
+.saint .text-link{color:#975341}
+.saint .button-outline{border-color:#a45e4d;color:#8e493f}
+.saint .button-outline:hover{color:#fff9f2}
+.card-lab{background:#fffaf0;border:1px solid #e4dace}
+.lab-intro .section-number{color:#a25e4d}.lab-intro h3{color:#2b4441}
+.lab-intro>p:last-child{color:#5a6b63}
+.draw-button{border-color:#b9967d;color:#7d4b3e;background:#fffdf9}
+.draw-button:hover{background:#a8604d;color:#fff}
+.card-column{border-color:#dfd5c7;background:#fffef9}
+.card-label{color:#936b54}
+.card-options button{background:#fbf8f0;border-color:#ddd4c6;color:#37544f}
+.card-options button[aria-pressed="true"]{background:#a75f4f;border-color:#a75f4f;color:#fffaf4}
+.card-options button[aria-pressed="true"]:after{color:#ffdfaf}
+.lab-result{background:#e9f0e8;color:#2a4440;box-shadow:inset 0 0 0 1px #c9d8cb}
+.lab-result:has(.result-effects span){box-shadow:inset 0 0 0 1px #c9d8cb}
+.lab-result>span{color:#985d49}.lab-result small{color:#6a8073}
+.result-effects{border-top-color:#c3d4c6}.result-effects>span{color:#5d7467}
+#effect-chips span{color:#78513f;border-color:#caa88a;background:#f9f2e7}
+.lab-links{border-color:#ded5c6}
+
+/* Methods, reading room, and the final unlocked page. */
+.practice{background:#eaf1ed}
+.practice-card{border-top-color:#bacdc0}.practice-card>span{color:#a3654c}
+.practice-card h3{color:#29433f}.practice-card p{color:#5b7268}
+.practice blockquote>span{color:#b87958}.practice blockquote p{color:#34504a}.practice blockquote cite{color:#6a8172}
+.more{background:#faf7ef;color:#2c4440}
+.more .section-number{color:#a2644e}
+.novel-card,.research-card{border-color:#dfd7c9;background:#fffdf8;box-shadow:0 12px 30px #50664c0b}
+.novel-content p,.research-card p{color:#61736a}
+.inline-actions a,.inline-button{color:#3e6a62;border-color:#87a197}
+.research-card .tiny-label{color:#a26953}
+.research-list a{border-color:#ded8ca;color:#344b49}
+.research-list a:hover{color:#a25945}.research-list a span{color:#a67b5f}
+.clearance{background:radial-gradient(circle at 17% 45%,#f7e3cf 0,#fbf7ec 36%,#edf2e8 100%);border-top-color:#d9c8b1}
+.clearance:after{color:#9b7662}
+.clearance-seal{color:#a8836e;border-color:#c5aa96}
+.clearance.is-cleared .clearance-seal{color:#995944;border-color:#b97458;box-shadow:0 0 45px #d79b6a48,inset 0 0 35px #d79b6a20}
+.clearance .tiny-label{color:#a0644d}.clearance h2{color:#2f4741}.clearance p{color:#62766b}
+.footer{background:#f8f6ef;color:#77877c;border-top:1px solid #e1dfd4}
+.footer a{color:#9b5a43}
+
+@keyframes sigilBreath{from{text-shadow:0 0 18px #b37b6540;transform:scale(.98)}to{text-shadow:0 0 55px #bb7b6566;transform:scale(1.025)}}
+@media(max-width:760px){
+  .mobile-dock{background:#faf8f0f2}
+  .about-aside{border-left-color:#c5d5c7}
+  .saint-stage{border-bottom:1px solid #dfc2b6}
+  .research-card{padding:27px 25px}
+  .research-card h3{font-size:25px}
+  .research-list a{gap:12px;font-size:13px}
+}
